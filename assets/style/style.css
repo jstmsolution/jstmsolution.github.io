@@ -7,9 +7,10 @@ body.container {
     border: 1px solid gray;
 }
 */
-body {
+body.container {
 	/*background-color: #f5f5f5;*/
-	background-image: url("https://i.ytimg.com/vi/x_2BeJFJQvA/maxresdefault.jpg");	
+	width: 100%;
+	background-image: url(""/assets/resource/default.jpg"");	
 	}
 	
 h4 {
