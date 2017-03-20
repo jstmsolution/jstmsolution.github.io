@@ -18,16 +18,23 @@ body {
 	color: #ffffff;
 }
 .bg__color{
-	background-color:#f5f5f5; 
+	background-color: rgba(245, 245, 245, 0.7);
 }
 .con_img_size{
+	height:80%;
+	width: height;
+	
 	max-width: 400px;
-	max-width: 400px;
+	max-height: 400px;
 	min-width: 40px;
-	min-width: 40px;
+	min-height: 40px;
 }
-.trans{
-	opacity: 0.8;
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.product .img-responsive {
+    margin: 0 auto;
 }
 h1,h2,h4 {
 	text-align: center;
