@@ -1,6 +1,37 @@
 body {
 	background-color: #f5f5f5;
 }
+.def__background{
+	background-image: url("../resource/default-min.jpg"); 
+	border-radius: 0px; 
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 600px;	
+}
+.it__background{
+	background-image: url("../resource/IT-Services-min.jpg");
+	border-radius: 0px; 
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 600px;	
+}
+.con__background{
+	background-image: url("../resource/cont-min.jpg");
+	border-radius: 0px; 
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 600px;	
+}
+@media( min-width: 769px ){
+	.def__background{
+	background-image: url("../resource/default.jpg");
+	}
+}
+@media (min-width: 769px){
+	.it__background{
+	background-image: url("../resource/IT-Services.jpg");
+	}
+}
 .logo{
 	font-weight: bold;
 	font-size: 26px;
